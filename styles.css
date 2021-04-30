@@ -3,3 +3,60 @@
     margin: 0;
     text-transform: capitalize;
 }
+body{
+    background-color: rgb(247, 245, 248);
+}
+#logo{
+    font-family: 'Lobster', cursive;
+    font-size: 1.6em;
+}
+.nav-link:hover{
+    color: balck;
+    font-weight: 600;
+}
+
+.activeLink{
+    color: balck;
+    font-weight: 600;
+}
+#home{
+    background-image: url(./img/pexels-photo-934062.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    
+}
+#home h2{
+    line-height: 50px;
+}
+.colored{
+    color: rgb(248, 129, 18);
+}
+
+.social-media{
+    list-style: none;
+}
+.social-media li{
+    display: inline;
+    margin-left: 40px;
+}
+.social-media li i:hover{
+    color: rgb(238, 146, 26);
+    cursor: pointer;
+}
+.card{
+    box-shadow: 2px 2px 5px gray;
+    position: relative;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.about{
+    line-height: 35px;
+}
+.orange-line{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(238, 146, 26);
+    display: block;
+}
